@@ -7,3 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// Add interactive feature functionality
+const interactiveFeatures = document.querySelectorAll(".interactive-features .btn");
+interactiveFeatures.forEach(function(feature) {
+    feature.addEventListener("click", function() {
+        // Launch interactive feature
+        console.log("Interactive feature launched!");
+    });
+});
